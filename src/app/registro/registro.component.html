@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.component.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    <mat-grid-list cols="2" >
+        <h1>registro de cuenta</h1>
+        <mat-grid-tile><input type="text" name="" id="" placeholder="nombre"></mat-grid-tile>
+        <mat-grid-tile><input type="text" name="" id="" placeholder="apellido"></mat-grid-tile>
+        <mat-grid-tile><input type="email" name="" id="" placeholder="correo electronico"></mat-grid-tile>
+        <mat-grid-tile><input type="number" name="" id="" placeholder="celular"></mat-grid-tile>
+        <mat-grid-tile><input type="text" name="" id="" placeholder="tipo de documento"></mat-grid-tile>
+        <mat-grid-tile><input type="number" name="" id="" placeholder="numero de documento"></mat-grid-tile>
+        <mat-grid-tile><input type="datetime" name="" id="" placeholder="fecha de expedicion"></mat-grid-tile>
+        <mat-grid-tile><input type="image" name="" id="" placeholder="foto de perfil"></mat-grid-tile>
+        <mat-grid-tile><input type="password" name="" id="" placeholder="contraseña"></mat-grid-tile>
+        <mat-grid-tile><input type="password" name="" id="" placeholder="repetir contraseña"></mat-grid-tile>
+      </mat-grid-list>
+    -->
+    <div class="container">
+        <div class="row margen">
+            <div class="grid">
+                <div class="g-col-6 mt-4"><h1>Registro de cuenta</h1></div>
+            </div>
+          <div class="col">
+            <ol>
+                <ul class="mt-4"><input type="text" placeholder="Nombre"></ul>
+                <ul class="mt-4"><input type="email" placeholder="Correo electronico"></ul>
+                <ul class="mt-4"><input type="text" placeholder="Tipo de documento"></ul>
+                <ul class="mt-4">Fecha de expedicion<input type="date" placeholder="fehca de expedicion" class="fecha"></ul>
+                <ul class="mt-4"><input type="password" placeholder="Contraseña"></ul>
+            </ol>
+          </div>
+          <div class="col">
+            <ol>
+                <ul class="mt-4"><input type="text" placeholder="Apellido"></ul>
+                <ul class="mt-4"><input type="number" placeholder="Celular"></ul>
+                <ul class="mt-4"><input type="number" placeholder="Numero de documento"></ul>
+                <ul class="mt-4"><button mat-raised-button color="primary" type="submit" class="boton2">Subir imagen de perfil</button></ul>
+                <ul class="mt-4"><input type="password" placeholder="Repetir contraseña"></ul>
+            </ol>
+          </div>
+        </div>
+        <a href="" class="terminos"><input type="checkbox"> Terminos y condiciones</a>
+      <a href="" class="mx-4"><input type="checkbox"> Politicas de privacidad</a>
+      <div class="grid">
+          <div class="g-col-6">
+            <button mat-raised-button color="primary" type="submit" class="boton mt-4">Ingresar</button>
+          </div>
+      </div>
+      </div>
+</body>
+</html>

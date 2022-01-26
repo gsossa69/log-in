@@ -1,0 +1,26 @@
+.margen{
+    margin-left: 20vh;
+}
+.terminos{
+    margin-left: 32vh;
+}
+.boton{
+    margin-left: 78vh;
+    font-size: 2rem;
+    height: 60px;
+}
+.boton2{
+    width: 278px;
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 3rem;
+    margin-left: 45vh;
+}
+input{
+    font-size: 1.5rem;
+}
+.fecha{
+    width: 278px;
+}
+  
