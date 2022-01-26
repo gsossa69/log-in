@@ -23,4 +23,9 @@ input{
 .fecha{
     width: 278px;
 }
+.boton3{
+    width: 370px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
   
